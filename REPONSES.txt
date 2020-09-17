@@ -27,3 +27,4 @@ EXO3
 EXO4
 6) il suffit de remplacer dans la balise <mainClass> App par le nouveau nom de la class qui est PrimeCollection
 
+ajout à la fin
