@@ -17,8 +17,9 @@ public class PrimeCollection
 			numbers.add((int)(Math.random()*m));
 	}
 	
-	private boolean isPrime(int p) {
-		for(int i=2;i<Math.sqrt(p)+1;i++) {
+	public boolean isPrime(int p) {
+		if(p==0) return false;
+		for(int i=2;i<=Math.sqrt(p);i++) {
 			if(p%i==0) return false;
 		}
 		return true;
