@@ -1,0 +1,29 @@
+Hamouni
+TD00
+
+EXO1
+
+4) mvn -version 
+    version 3.6.3
+
+5)
+  groupID:permet d'identifier le projet 
+  artificialID: c'est le nom du jar sans sa version
+
+6)
+  le repertoire target contient le fichier jar qui est une compression du projet
+
+8) class path permet de specifier un chemin d'acces vers les classes dont on aura besoin pour la compilation du projet 
+
+EXO2
+1) fichier MANIFEST manquant 
+
+EXO3
+
+3) remplace syso par systeme.out.println()
+4)  remplace toStr en toString()
+5) plusieurs propositions sont apparu dont "public static void main"
+
+EXO4
+6) il suffit de remplacer dans la balise <mainClass> App par le nouveau nom de la class qui est PrimeCollection
+
