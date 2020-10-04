@@ -14,17 +14,37 @@ EXO1
   le repertoire target contient le fichier jar qui est une compression du projet
 
 8) class path permet de specifier un chemin d'acces vers les classes dont on aura besoin pour la compilation du projet 
-
+13) elle permet de specifier la version du compilateur java utilisé pour compiler le target
 EXO2
-1) fichier MANIFEST manquant 
+1) erreur d'execution :"fichier MANIFEST manquant" 
 
 EXO3
 
 3) remplace syso par systeme.out.println()
-4)  remplace toStr en toString()
+4)  remplace toStr en toString() en générant cette méthode 
 5) plusieurs propositions sont apparu dont "public static void main"
-
+6) creation des getter et setter de l'attribut toto 
 EXO4
 6) il suffit de remplacer dans la balise <mainClass> App par le nouveau nom de la class qui est PrimeCollection
+
+TD00BIS
+Exo1)
+5)
+detail des changement effectué: ligne supprimé ainsi que la ligne ajouté
+8)
+dc1cce24ad29ec0f21d1ddb80dec0098a3b402c6
+10)
+ git diff HEAD HEAD^
+
+Exo2)
+3)
+ ajout de l'icone "remotes/origin" sur le dernier commit
+5)
+ error: failed to push
+7)
+ ça aurait été impossible de resoudre le conflit ou bien on peut perdre une des modifications apporté 
+
+Exo3)
+2) assertTrue assure qu'une condition soit vrai 
 
 ajout à la fin
